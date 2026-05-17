@@ -26,3 +26,7 @@ verificar.py
 limpiar.py
 test_retriever.py
 debug_paginas.py
+
+# Mantener carpetas vacías
+!data/raw/.gitkeep
+!data/chroma_db/.gitkeep
