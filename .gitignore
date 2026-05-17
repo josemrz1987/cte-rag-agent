@@ -1,0 +1,28 @@
+# API Keys y variables de entorno
+.env
+
+# Base de datos vectorial (pesa mucho)
+data/chroma_db/
+
+# PDFs originales (derechos de autor)
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Anaconda
+.conda/
+
+# Archivos temporales del proyecto
+verificar.py
+limpiar.py
+test_retriever.py
+debug_paginas.py
