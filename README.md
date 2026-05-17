@@ -3,9 +3,12 @@
 Agente conversacional con IA que responde preguntas técnicas sobre el CTE español, citando siempre la página de origen del documento.
 
 ## 🧠 Arquitectura
+
+```
 PDF del CTE → Chunks → Embeddings → ChromaDB
-↓
-Pregunta → Retriever → LLM (GPT-4o mini) → Respuesta con fuentes
+                                        ↓
+         Pregunta → Retriever → LLM (GPT-4o mini) → Respuesta con fuentes
+```
 
 ## 🛠️ Stack tecnológico
 
@@ -20,7 +23,7 @@ Pregunta → Retriever → LLM (GPT-4o mini) → Respuesta con fuentes
 
 - Python 3.11
 - Cuenta en [OpenAI](https://platform.openai.com) con crédito (mínimo 5€)
-- PDF del CTE descargable gratis.
+- PDF del CTE descargable gratis en [codigotecnico.org](https://www.codigotecnico.org)
 
 ## 🚀 Instalación
 
@@ -40,12 +43,18 @@ pip install -r requirements.txt
 ### 3. Configura las variables de entorno
 
 Crea un archivo `.env` en la raíz del proyecto:
+
+```
 OPENAI_API_KEY=sk-tu-clave-aqui
+```
 
 ### 4. Añade el PDF del CTE
 
-Descarga el PDF del CTE y colócalo en:
+Descarga el PDF del CTE desde [codigotecnico.org](https://www.codigotecnico.org) y colócalo en:
+
+```
 data/raw/CTE_2026.pdf
+```
 
 ### 5. Indexa el documento
 
