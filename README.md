@@ -60,23 +60,24 @@ streamlit run app/streamlit_app.py
 ```
 
 ## 📁 Estructura del proyecto
-cte-rag-agent/
-├── data/
-│   ├── raw/                    # PDF del CTE (no incluido)
-│   └── chroma_db/              # Vector store (generado automáticamente)
-├── src/
-│   ├── ingestion/              # Carga, chunking y embeddings
-│   ├── retrieval/              # Búsqueda en ChromaDB
-│   ├── agent/                  # Grafo LangGraph, nodos y prompts
-│   └── utils/                  # Configuración
-├── app/
-│   └── streamlit_app.py        # Interfaz de chat
-├── scripts/
-│   └── ingest.py               # Script de ingestión
-├── notebooks/
-│   └── evaluacion_rag.ipynb    # Evaluación del agente
-├── .env                        # API keys (no incluido)
-└── requirements.txt
+
+    cte-rag-agent/
+    ├── data/
+    │   ├── raw/                    # PDF del CTE (no incluido)
+    │   └── chroma_db/              # Vector store (generado automáticamente)
+    ├── src/
+    │   ├── ingestion/              # Carga, chunking y embeddings
+    │   ├── retrieval/              # Búsqueda en ChromaDB
+    │   ├── agent/                  # Grafo LangGraph, nodos y prompts
+    │   └── utils/                  # Configuración
+    ├── app/
+    │   └── streamlit_app.py        # Interfaz de chat
+    ├── scripts/
+    │   └── ingest.py               # Script de ingestión
+    ├── notebooks/
+    │   └── evaluacion_rag.ipynb    # Evaluación del agente
+    ├── .env                        # API keys (no incluido)
+    └── requirements.txt
 
 ## ⚙️ Funcionamiento
 
