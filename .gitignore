@@ -30,3 +30,7 @@ debug_paginas.py
 # Mantener carpetas vacías
 !data/raw/.gitkeep
 !data/chroma_db/.gitkeep
+
+# Carpetas no deseadas
+AGENTE CTE/
+anaconda_projects/
