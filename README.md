@@ -27,7 +27,7 @@ Pregunta → Retriever → LLM (GPT-4o mini) → Respuesta con fuentes
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/cte-rag-agent.git
+git clone https://github.com/josemrz1987/cte-rag-agent.git
 cd cte-rag-agent
 ```
 
