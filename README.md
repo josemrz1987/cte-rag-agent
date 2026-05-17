@@ -23,7 +23,7 @@ PDF del CTE → Chunks → Embeddings → ChromaDB
 
 - Python 3.11
 - Cuenta en [OpenAI](https://platform.openai.com) con crédito (mínimo 5€)
-- PDF del CTE descargable gratis en [codigotecnico.org](https://www.codigotecnico.org)
+- PDF del CTE descargable
 
 ## 🚀 Instalación
 
@@ -50,7 +50,7 @@ OPENAI_API_KEY=sk-tu-clave-aqui
 
 ### 4. Añade el PDF del CTE
 
-Descarga el PDF del CTE desde [codigotecnico.org](https://www.codigotecnico.org) y colócalo en:
+Descarga el PDF del CTE y colócalo en:
 
 ```
 data/raw/CTE_2026.pdf
