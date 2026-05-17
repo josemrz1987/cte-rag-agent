@@ -44,7 +44,7 @@ OPENAI_API_KEY=sk-tu-clave-aqui
 
 ### 4. Añade el PDF del CTE
 
-Descarga el PDF del CTE desde [codigotecnico.org](https://www.codigotecnico.org) y colócalo en:
+Descarga el PDF del CTE y colócalo en:
 data/raw/CTE_2026.pdf
 
 ### 5. Indexa el documento
