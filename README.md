@@ -20,7 +20,7 @@ Pregunta → Retriever → LLM (GPT-4o mini) → Respuesta con fuentes
 
 - Python 3.11
 - Cuenta en [OpenAI](https://platform.openai.com) con crédito (mínimo 5€)
-- PDF del CTE descargable gratis en [codigotecnico.org](https://www.codigotecnico.org)
+- PDF del CTE descargable gratis.
 
 ## 🚀 Instalación
 
